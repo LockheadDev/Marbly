@@ -9,23 +9,6 @@ public class LevelSequencer : MonoBehaviour
 
     private void Awake()
     {
-        m_startmark = GameObject.Find("StartMark");
-        m_finishmark = GameObject.Find("FinishMark");
-        m_marble = GameObject.Find("Marble");
-
-        if(m_startmark==null)
-        {
-            Debug.Log("m_ No -StartMark- found");
-        }
-        if (m_finishmark == null)
-        {
-            Debug.Log("m_ No -FinishMark- found");
-        }
-        if (m_marble == null)
-        {
-            Debug.Log("m_ No -Marble- found");
-        }
-
         // Deactivate marble at start point
         m_marble.SetActive(false);
 

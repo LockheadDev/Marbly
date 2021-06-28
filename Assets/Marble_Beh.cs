@@ -15,9 +15,9 @@ public class Marble_Beh : MonoBehaviour
     {
 
     }
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Finish")
+        if (other.tag == "Finish")
         {
             Debug.Log("Finished");
         }
