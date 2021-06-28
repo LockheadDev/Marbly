@@ -7,26 +7,27 @@ public class LevelSequencer : MonoBehaviour
     public GameObject  m_startmark, m_finishmark, m_marble;
 
 
-    private void Awake()
+    private void Start()
     {
         // Deactivate marble at start point
         m_marble.SetActive(false);
 
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        // Put marble in startmark Position
-        m_marble.transform.SetPositionAndRotation(m_startmark.transform.position, Quaternion.identity);
-       
-    }
-    private void Update()
-    {
 
-    }
-    public void startMarble()
+    public void startMarble(int state)
     {
-        m_marble.SetActive(true);
+        switch (state)
+        {
+            case 0:
+                m_marble.transform.SetPositionAndRotation(m_startmark.transform.position, Quaternion.identity);
+                m_marble.SetActive(false);
+                m_marble.GetComponent<Rigidbody>().velocity = Vector3.zero;
+                break;
+            case 1:
+                m_marble.SetActive(true);
+                break;
+        }
+        
     }
     public void toggleGamePause()
     {
