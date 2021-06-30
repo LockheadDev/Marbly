@@ -15,11 +15,11 @@ C:/Users/hrswf/OneDrive/Docs/Creative/Unity/Marbly
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58991
+60067
 Successfully changed project path to: C:/Users/hrswf/OneDrive/Docs/Creative/Unity/Marbly
 C:/Users/hrswf/OneDrive/Docs/Creative/Unity/Marbly
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001387 seconds.
+Registered in 0.001633 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.352 seconds
+- Completed reload, in  1.450 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003308 seconds.
+Registered in 0.004330 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.670 seconds
+- Completed reload, in  0.806 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1404 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.9 MB.
-System memory in use after: 68.9 MB.
+Unloading 1800 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.4 MB.
+System memory in use after: 85.5 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1838.
-Total: 1.364600 ms (FindLiveObjects: 0.095300 ms CreateObjectMapping: 0.024300 ms MarkObjects: 1.192700 ms  DeleteObjects: 0.051800 ms)
+Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 2229.
+Total: 1.901000 ms (FindLiveObjects: 0.119400 ms CreateObjectMapping: 0.035300 ms MarkObjects: 1.632000 ms  DeleteObjects: 0.113400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,462 +79,465 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed0b8ac7d3cf0027389cd77f5109128') in 0.008807 seconds 
-  Import took 0.012507 seconds .
+  path: Assets/Prefabs/PR_path_45.prefab
+  artifactKey: Guid(d22eca9a03595c44a897f18275f746ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PR_path_45.prefab using Guid(d22eca9a03595c44a897f18275f746ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5472a71ceb6a36a08060bcca81c4827c') in 0.054986 seconds 
+  Import took 0.059339 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.521885 seconds.
-  path: Assets/Scenes/ProBuiilderAsset.unity
-  artifactKey: Guid(3cd3a57477b0ed044a7a2323d9ee0d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ProBuiilderAsset.unity using Guid(3cd3a57477b0ed044a7a2323d9ee0d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb4f57e7ccacfb1566462335d7a5d52') in 0.002318 seconds 
-  Import took 0.005357 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003521 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.641 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1788 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.1 MB.
-System memory in use after: 82.2 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2211.
-Total: 2.359900 ms (FindLiveObjects: 0.117600 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.474600 ms  DeleteObjects: 0.728800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003369 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.1 MB.
-System memory in use after: 82.2 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2214.
-Total: 2.652000 ms (FindLiveObjects: 0.110200 ms CreateObjectMapping: 0.032500 ms MarkObjects: 1.471300 ms  DeleteObjects: 1.037400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003442 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.610 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.1 MB.
-System memory in use after: 82.2 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2217.
-Total: 2.501500 ms (FindLiveObjects: 0.097800 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.462900 ms  DeleteObjects: 0.908800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003551 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.628 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.0 MB.
-System memory in use after: 82.2 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2220.
-Total: 2.511100 ms (FindLiveObjects: 0.105200 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.474700 ms  DeleteObjects: 0.899000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008438 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.679 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.2 MB.
-System memory in use after: 82.2 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2223.
-Total: 2.732900 ms (FindLiveObjects: 0.125300 ms CreateObjectMapping: 0.039900 ms MarkObjects: 1.543800 ms  DeleteObjects: 1.023300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003357 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.662 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.2 MB.
-System memory in use after: 82.2 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2226.
-Total: 2.847500 ms (FindLiveObjects: 0.135400 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.554600 ms  DeleteObjects: 1.124800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003368 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.728 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.2 MB.
-System memory in use after: 82.2 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2229.
-Total: 3.059500 ms (FindLiveObjects: 0.129800 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.662100 ms  DeleteObjects: 1.234000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003575 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.664 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.2 MB.
-System memory in use after: 82.3 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2232.
-Total: 2.724600 ms (FindLiveObjects: 0.135500 ms CreateObjectMapping: 0.039700 ms MarkObjects: 1.543000 ms  DeleteObjects: 1.005400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003613 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.650 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.1 MB.
-System memory in use after: 82.3 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2235.
-Total: 2.887200 ms (FindLiveObjects: 0.130100 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.669500 ms  DeleteObjects: 1.047100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 6757.902300 seconds.
-  path: Assets/Materials/Metal MArble.physicMaterial
-  artifactKey: Guid(abaf9d064b8fb0241a967555e08b9921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Metal MArble.physicMaterial using Guid(abaf9d064b8fb0241a967555e08b9921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5627979465171b5104b07a17abc26720') in 0.032560 seconds 
-  Import took 0.036577 seconds .
+  Time since last request: 40.070839 seconds.
+  path: Assets/KenneyAssets/kenney_citykitroads/Models/OBJ format/road_side.obj
+  artifactKey: Guid(596a01d5b96bece43befbdc743c5890b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_citykitroads/Models/OBJ format/road_side.obj using Guid(596a01d5b96bece43befbdc743c5890b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18499b51f1cde05f3b6cc9c6eed05ea') in 0.133553 seconds 
+  Import took 0.138567 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.278311 seconds.
-  path: Assets/Materials/Metal MArble.physicMaterial
-  artifactKey: Guid(abaf9d064b8fb0241a967555e08b9921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Metal MArble.physicMaterial using Guid(abaf9d064b8fb0241a967555e08b9921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5627979465171b5104b07a17abc26720') in 0.002332 seconds 
-  Import took 0.006894 seconds .
+  Time since last request: 0.000333 seconds.
+  path: Assets/KenneyAssets/kenney_citykitroads/Models/OBJ format/road_sideEntryBarrier.obj
+  artifactKey: Guid(905ebeb326a175049a20393676d6e17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_citykitroads/Models/OBJ format/road_sideEntryBarrier.obj using Guid(905ebeb326a175049a20393676d6e17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805b54eab306c4e5ac6f3c3cb0359594') in 0.016649 seconds 
+  Import took 0.020709 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003511 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat
+  artifactKey: Guid(c22777d6e868e4f2fb421913386b154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat using Guid(c22777d6e868e4f2fb421913386b154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68dd98fd11319920ff295739c34f63f1') in 0.010545 seconds 
+  Import took 0.014393 seconds .
 
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.663 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.2 MB.
-System memory in use after: 82.3 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2238.
-Total: 2.892200 ms (FindLiveObjects: 0.121400 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.617900 ms  DeleteObjects: 1.117200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003825 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_sampleA.dae
+  artifactKey: Guid(7c47a5386c50cfc4b90f1bc568cb3eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_sampleA.dae using Guid(7c47a5386c50cfc4b90f1bc568cb3eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c059b9a02157ff70a6e17246adb97b') in 0.021737 seconds 
+  Import took 0.025734 seconds .
 
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/KenneyAssets/kenney_citykitroads/Models/OBJ format/road_side.obj
+  artifactKey: Guid(596a01d5b96bece43befbdc743c5890b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_citykitroads/Models/OBJ format/road_side.obj using Guid(596a01d5b96bece43befbdc743c5890b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18499b51f1cde05f3b6cc9c6eed05ea') in 0.023176 seconds 
+  Import took 0.027095 seconds .
 
-Mono: successfully reloaded assembly
-- Completed reload, in  0.677 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.2 MB.
-System memory in use after: 82.3 MB.
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/enemy_ufoPurple.dae
+  artifactKey: Guid(dd01b0db24b8fc34fbba7592d3764100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/enemy_ufoPurple.dae using Guid(dd01b0db24b8fc34fbba7592d3764100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed6f4d5f087bf0ff5f88772448185a1') in 0.020669 seconds 
+  Import took 0.024545 seconds .
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2241.
-Total: 2.870000 ms (FindLiveObjects: 0.140000 ms CreateObjectMapping: 0.046800 ms MarkObjects: 1.643600 ms  DeleteObjects: 1.038900 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_middleC.obj
+  artifactKey: Guid(187ae9985bdf1e24f8ab1a990c3932af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_middleC.obj using Guid(187ae9985bdf1e24f8ab1a990c3932af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e41f14a0a949dbea4bd4a808c30c1c') in 0.018849 seconds 
+  Import took 0.023028 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/KenneyAssets/kenney_citykitroads/Models/OBJ format/road_sideBarrier.obj
+  artifactKey: Guid(ba0f2d0a0cfae3e4f98009fc0b1de00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_citykitroads/Models/OBJ format/road_sideBarrier.obj using Guid(ba0f2d0a0cfae3e4f98009fc0b1de00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0abcb1e7047a33e17800116104e444e') in 0.017157 seconds 
+  Import took 0.021077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_sampleB.obj
+  artifactKey: Guid(a88d094a430310c4097c3da064c209dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_sampleB.obj using Guid(a88d094a430310c4097c3da064c209dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad49fb3dcb04fdd7fb137377e96b39b') in 0.021814 seconds 
+  Import took 0.025965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.468787 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_sampleE.obj
+  artifactKey: Guid(289feaadc681bda439ddfcbcb44503ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_sampleE.obj using Guid(289feaadc681bda439ddfcbcb44503ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd810185e729d6c4357ad8aeba8155755') in 0.061493 seconds 
+  Import took 0.067376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_roofC.dae
+  artifactKey: Guid(40965ee7867587c4dab3d978d3bc5199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_roofC.dae using Guid(40965ee7867587c4dab3d978d3bc5199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8961cf30ea5f72f8910e4e787cce99b') in 0.017876 seconds 
+  Import took 0.022346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_topA.obj
+  artifactKey: Guid(0743f2e26c8748e4bae488807cfdf60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_topA.obj using Guid(0743f2e26c8748e4bae488807cfdf60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3e4ae6700625f6ab3010d1572e4374') in 0.028406 seconds 
+  Import took 0.032621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_roofC.obj
+  artifactKey: Guid(fcad0ca7823c42c46853c64867f73997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_roofC.obj using Guid(fcad0ca7823c42c46853c64867f73997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411ce0745b4cd9acbf6ea5b58065b3b2') in 0.021601 seconds 
+  Import took 0.025693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000788 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_roofC.obj
+  artifactKey: Guid(fcad0ca7823c42c46853c64867f73997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_roofC.obj using Guid(fcad0ca7823c42c46853c64867f73997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411ce0745b4cd9acbf6ea5b58065b3b2') in 0.017240 seconds 
+  Import took 0.021379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.355720 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_roofA.dae
+  artifactKey: Guid(2eeef30e95f71ca4ab42ff08623ae308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_roofA.dae using Guid(2eeef30e95f71ca4ab42ff08623ae308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77fb568072c4258d0efabbb89843388') in 0.031712 seconds 
+  Import took 0.036803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_middleC.dae
+  artifactKey: Guid(fbf744f433a046c4da70709fdf3205c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_middleC.dae using Guid(fbf744f433a046c4da70709fdf3205c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48fd7210dc0c33e148432e7c3f7dd20') in 0.015679 seconds 
+  Import took 0.020266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_sampleF.obj
+  artifactKey: Guid(81f8cfd47b78aad47bccd47ae5ab8b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_sampleF.obj using Guid(81f8cfd47b78aad47bccd47ae5ab8b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485df14f6d8cf5f970752960c788f28c') in 0.018708 seconds 
+  Import took 0.023266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.710634 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_middleB.dae
+  artifactKey: Guid(5da217bc07ca4724a88f901393d17bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_middleB.dae using Guid(5da217bc07ca4724a88f901393d17bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f1a635ffe34f01992e06eadc7449d7') in 0.052563 seconds 
+  Import took 0.056989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_middleA.dae
+  artifactKey: Guid(fae3724f41bd9334091acb68a2720b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_middleA.dae using Guid(fae3724f41bd9334091acb68a2720b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3554129d9711ef1607f3faf0952381') in 0.013793 seconds 
+  Import took 0.017762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_bottomA.dae
+  artifactKey: Guid(6ff811e7a02ec0441acf30ff07c3b8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_bottomA.dae using Guid(6ff811e7a02ec0441acf30ff07c3b8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523ccad5b2665b42f7f2fa29ef749e9c') in 0.013831 seconds 
+  Import took 0.018131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_bottomC.dae
+  artifactKey: Guid(a79f6aa0daee7fe46bda6fc0f5a36c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_bottomC.dae using Guid(a79f6aa0daee7fe46bda6fc0f5a36c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcb78af304bd26db07fca03d5fa85f8') in 0.015451 seconds 
+  Import took 0.019606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_sampleA.obj
+  artifactKey: Guid(44ad3f019953ea042b70248e10b49016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_sampleA.obj using Guid(44ad3f019953ea042b70248e10b49016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79da07a97ea1b4dbcd397a9520758b69') in 0.018307 seconds 
+  Import took 0.023123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_roofB.dae
+  artifactKey: Guid(a026bdb6dbad25d469538313d96d9c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_roofB.dae using Guid(a026bdb6dbad25d469538313d96d9c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67eb52a13894ffe188e8aeeeee67cc44') in 0.017269 seconds 
+  Import took 0.021749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_bottomB.dae
+  artifactKey: Guid(06fe90984eb44a944a1bc7d334ed1a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_bottomB.dae using Guid(06fe90984eb44a944a1bc7d334ed1a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2bda71fe29a862b83233b5a30fd0f8') in 0.017687 seconds 
+  Import took 0.021997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199946 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_sampleB.dae
+  artifactKey: Guid(15a7f4cf4d5aa014daf1297173c2ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_sampleB.dae using Guid(15a7f4cf4d5aa014daf1297173c2ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bdeb5692741e9a4b8d5c887a26dd88') in 0.016678 seconds 
+  Import took 0.021389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033697 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/enemy_ufoPurpleWeapon.dae
+  artifactKey: Guid(2f79955ffc28e184a86b11572c95dbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/enemy_ufoPurpleWeapon.dae using Guid(2f79955ffc28e184a86b11572c95dbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5b03ed144785cf9376db561f3aabcc') in 0.021805 seconds 
+  Import took 0.026625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.272255 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_topB.obj
+  artifactKey: Guid(952c91f794defdd47838b1ba5c5ab902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_topB.obj using Guid(952c91f794defdd47838b1ba5c5ab902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2099af60bc879e2507eb39e74f02b0') in 0.054918 seconds 
+  Import took 0.059822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_bottomA.obj
+  artifactKey: Guid(821e306ead90cb64aa864ecb70404d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_bottomA.obj using Guid(821e306ead90cb64aa864ecb70404d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e349af551cb1de531bcba4b3c6b2c34') in 0.014827 seconds 
+  Import took 0.018917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_middleB.obj
+  artifactKey: Guid(73a9a1e8e5e8c6b43938bf3cb979f8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_middleB.obj using Guid(73a9a1e8e5e8c6b43938bf3cb979f8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece5b88f2e75b8ea16030b347fe50e19') in 0.020477 seconds 
+  Import took 0.029754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_sampleD.obj
+  artifactKey: Guid(b3e6417549fa03a438c7ef620cae6e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_sampleD.obj using Guid(b3e6417549fa03a438c7ef620cae6e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77b48456e0cee97066978270c11f8c8') in 0.017159 seconds 
+  Import took 0.021766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_topA.dae
+  artifactKey: Guid(35302f94ead128043846d823dfb0e535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_topA.dae using Guid(35302f94ead128043846d823dfb0e535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed6086eb3dc58ba1a9fef29505b2e27') in 0.016740 seconds 
+  Import took 0.021004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_topB.dae
+  artifactKey: Guid(0013a52c6680c5c45933332246e5fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_topB.dae using Guid(0013a52c6680c5c45933332246e5fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d409acb54ec9f87fbb00f40efa4104') in 0.017952 seconds 
+  Import took 0.022271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.117494 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_bottomB.obj
+  artifactKey: Guid(1ac8b166b02917c4c94a4e69b17688e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_bottomB.obj using Guid(1ac8b166b02917c4c94a4e69b17688e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66056366158bc3ffd10de4084fad02d1') in 0.018083 seconds 
+  Import took 0.022848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_roofB.obj
+  artifactKey: Guid(6602f7c59e01a284c9409eef434e2e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_roofB.obj using Guid(6602f7c59e01a284c9409eef434e2e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0be98e21b5df7fd31174d1dd5e3695') in 0.017278 seconds 
+  Import took 0.022279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_sampleF.dae
+  artifactKey: Guid(87e6b17bec564ee42a8266007ae200e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_sampleF.dae using Guid(87e6b17bec564ee42a8266007ae200e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52541e8c961e50c30d55f2e421ee337f') in 0.015498 seconds 
+  Import took 0.020319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_sampleC.dae
+  artifactKey: Guid(415d7c5bcf55bb44ca3ca4d0e5c2ce23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_sampleC.dae using Guid(415d7c5bcf55bb44ca3ca4d0e5c2ce23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d140a8031efddf9516c5d21b1706fc') in 0.015480 seconds 
+  Import took 0.019696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_sampleD.dae
+  artifactKey: Guid(30d9606b3596f3048a1478d12e8a415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_sampleD.dae using Guid(30d9606b3596f3048a1478d12e8a415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a7fb612adab7078043c711cf7dad38') in 0.015516 seconds 
+  Import took 0.019795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_bottomB.obj
+  artifactKey: Guid(1ac8b166b02917c4c94a4e69b17688e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_bottomB.obj using Guid(1ac8b166b02917c4c94a4e69b17688e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66056366158bc3ffd10de4084fad02d1') in 0.015171 seconds 
+  Import took 0.019298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_middleA.obj
+  artifactKey: Guid(303acbc964b46d140b96bd3bcc62127c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_middleA.obj using Guid(303acbc964b46d140b96bd3bcc62127c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f2283a4840508ff2e34f3589ca1f01') in 0.015208 seconds 
+  Import took 0.019549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.144493 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_bottomC.obj
+  artifactKey: Guid(9e6c1d6c41b0bfd46b11e491d94efb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_bottomC.obj using Guid(9e6c1d6c41b0bfd46b11e491d94efb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3f254c32af886c908ab261e9ee86e1') in 0.015461 seconds 
+  Import took 0.020303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000784 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_bottomC.obj
+  artifactKey: Guid(9e6c1d6c41b0bfd46b11e491d94efb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_bottomC.obj using Guid(9e6c1d6c41b0bfd46b11e491d94efb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3f254c32af886c908ab261e9ee86e1') in 0.012580 seconds 
+  Import took 0.016891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_sampleE.dae
+  artifactKey: Guid(948b01e307b15054ebc1c22af460d73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerSquare_sampleE.dae using Guid(948b01e307b15054ebc1c22af460d73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fd3f4ae159fed9757456bf5afb9ad1') in 0.015063 seconds 
+  Import took 0.019575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_sampleC.obj
+  artifactKey: Guid(cba20bc8e5c0ee94488611632ccededf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_sampleC.obj using Guid(cba20bc8e5c0ee94488611632ccededf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47f9776c5fbc1fe827478ab14108db3') in 0.016956 seconds 
+  Import took 0.022343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_roofA.obj
+  artifactKey: Guid(e02b30b2e505c4846941925ee8ca9ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerSquare_roofA.obj using Guid(e02b30b2e505c4846941925ee8ca9ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3355002767bded9359a874bf4f3ab259') in 0.017231 seconds 
+  Import took 0.021752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.168728 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerRound_sampleC.dae
+  artifactKey: Guid(942fc366c1b7ccf4aaddd210045838c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerRound_sampleC.dae using Guid(942fc366c1b7ccf4aaddd210045838c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea524de53618099817b87a9c03d6a68') in 0.016382 seconds 
+  Import took 0.021160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerRound_sampleD.dae
+  artifactKey: Guid(81e88821dc22d0c4dbcf894259bea0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerRound_sampleD.dae using Guid(81e88821dc22d0c4dbcf894259bea0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c567b276303dec7e4d0eb0009da20af') in 0.015654 seconds 
+  Import took 0.019925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerRound_topA.dae
+  artifactKey: Guid(2384781ed3bb05a4ba8f6bba9602868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerRound_topA.dae using Guid(2384781ed3bb05a4ba8f6bba9602868f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2209b3cdf08d98dbb0b85838160f2c0c') in 0.015015 seconds 
+  Import took 0.019403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerRound_topB.dae
+  artifactKey: Guid(087023b0d2c30cd479c4e6b9fbfe20e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerRound_topB.dae using Guid(087023b0d2c30cd479c4e6b9fbfe20e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e15c1e11e9e7638a69aa2b947affc8') in 0.015806 seconds 
+  Import took 0.020268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerRound_sampleE.dae
+  artifactKey: Guid(2ad585fc07e3e4d45a3431916a7a4c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerRound_sampleE.dae using Guid(2ad585fc07e3e4d45a3431916a7a4c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1d33dc4a17b3599b045dac08792ddb') in 0.015971 seconds 
+  Import took 0.020364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerRound_roofC.obj
+  artifactKey: Guid(d4a0927be79f22c40aaf9ce7daf1ecb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerRound_roofC.obj using Guid(d4a0927be79f22c40aaf9ce7daf1ecb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b51b40752ca174c5d8687c542af6ffa') in 0.017391 seconds 
+  Import took 0.021879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerRound_sampleF.dae
+  artifactKey: Guid(84cd7016fc0a3034ca24313952c36e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/towerRound_sampleF.dae using Guid(84cd7016fc0a3034ca24313952c36e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243742f74f4fc279d527b83f759b25e1') in 0.015668 seconds 
+  Import took 0.019813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.124965 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerRound_roofB.obj
+  artifactKey: Guid(9a02ec2fda645634ca37b3b12ad4d34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerRound_roofB.obj using Guid(9a02ec2fda645634ca37b3b12ad4d34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907a9759d407d1951cdb36837d7550c7') in 0.018363 seconds 
+  Import took 0.023051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerRound_roofA.obj
+  artifactKey: Guid(880c4656584317b4ea88887f1b9955b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerRound_roofA.obj using Guid(880c4656584317b4ea88887f1b9955b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6751dd22596a1ad6374795cf093c34') in 0.017590 seconds 
+  Import took 0.022717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/weapon_blaster.dae
+  artifactKey: Guid(c2aa5382a4c6a8c4aa01bd4dfaf6b6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/DAE format/weapon_blaster.dae using Guid(c2aa5382a4c6a8c4aa01bd4dfaf6b6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446e74bf5089c76b4ae83293b9c44477') in 0.015883 seconds 
+  Import took 0.020405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerRound_middleA.obj
+  artifactKey: Guid(ef61d2056c574814e8c50059e6dd68f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerRound_middleA.obj using Guid(ef61d2056c574814e8c50059e6dd68f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15651fe103f51becdca8591bb409b78') in 0.015633 seconds 
+  Import took 0.020114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerRound_crystals.obj
+  artifactKey: Guid(281f6fda2c243f44d83c9c33de4d5bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerRound_crystals.obj using Guid(281f6fda2c243f44d83c9c33de4d5bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd324f44801c5abe2b2bcb78ab93255') in 0.022778 seconds 
+  Import took 0.027162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerRound_base.obj
+  artifactKey: Guid(8077d5582066d5b4a8ac952978a561f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KenneyAssets/kenney_tower-defense-kit-1/Models/OBJ format/towerRound_base.obj using Guid(8077d5582066d5b4a8ac952978a561f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d04533a4cee701ac2c43cbb90c07eb4') in 0.017162 seconds 
+  Import took 0.021997 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

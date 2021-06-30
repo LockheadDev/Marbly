@@ -24,7 +24,7 @@ public class Camera_Controller : MonoBehaviour
     {
 
 
-
+        /*
         //Camera angles based on mouse position
         Mouse_Location = Input.mousePosition - Mouse_Location;
         
@@ -36,7 +36,7 @@ public class Camera_Controller : MonoBehaviour
        
         Mouse_Location = Input.mousePosition;
 
-
+        */
 
 
         
